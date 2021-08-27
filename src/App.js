@@ -1,4 +1,4 @@
-import 'bulma/css/bulma.min.css';
+import "./styles.css";
 
 const App = () => {
       return (
