@@ -1,10 +1,15 @@
-import "./styles.css";
+import 'bulma/css/bulma.min.css';
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
-}
+const App = () => {
+      return (
+        <div classname="main"> 
+          <div className="buttons">
+            <button class="button is-success is-small">Small</button>
+            <button class="button is-warning is-medium">Medium</button>
+            <button class="button is-danger is-large">Large</button>
+          </div>
+      </div>
+      )
+  }
+  
+export default App;
