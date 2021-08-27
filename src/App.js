@@ -66,5 +66,5 @@ const App = () => {
     )
 }
 
-ReactDOM.render(<App/>, document.getElementById('root'))
+export default App;
 
