@@ -3,6 +3,7 @@ import React from "react";
 class Banner extends React.Component {
   render() {
     return (
+      <Fragment>
       <nav className="nav">
       <div className="container">
         <h1 className="logo"><a href="/index.html">My Website</a></h1>
@@ -14,6 +15,7 @@ class Banner extends React.Component {
         </ul>
       </div>
     </nav>
+   </Fragment>
 
     <div className="hero">
       <div className="container">
