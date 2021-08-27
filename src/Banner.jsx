@@ -1,6 +1,6 @@
 import React from "react";
-import "bulma";
 
+import 'bulma/css/bulma.min.css';
 class Banner extends React.Component {
   render() {
     return (
