@@ -4,4 +4,4 @@ import ReactDOM from "react-dom";
 import "bulma";
 import Banner from "./component/Banner";
 
-ReactDOM.render(<Banner />, document.getElementById
+ReactDOM.render(<Banner />, document.getElementById("root"));
