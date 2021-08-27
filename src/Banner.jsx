@@ -15,8 +15,8 @@ class Banner extends React.Component {
         </ul>
       </div>
     </nav>
-   </Fragment>
-    <Fragment>
+   
+    
     <div className="hero">
       <div className="container">
         <h1>Welcome To My Website</h1>
