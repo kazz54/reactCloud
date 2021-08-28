@@ -13,7 +13,7 @@ import ArtistsList from './artistsList';
 
 //const URL_ARTIST = 'http://192.168.0.250:7000/artists'
 
-class Home extends Component {
+class About extends Component {
 //    constructor(props){
 //        super(props)
 
