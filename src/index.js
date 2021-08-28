@@ -1,16 +1,12 @@
+
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-import Navbar from './components/Navbar';
-import Content from './components/Content';
-
-
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Content />
-    </div>
-  );
-}
-
-export default App;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
