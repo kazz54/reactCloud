@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './About';
+//import About from './About';
 
 const Hero = ({element}) => {
     return(
@@ -11,7 +11,7 @@ const Hero = ({element}) => {
       
      
       <section class="container content">
-        <About />
+        
       </section>
     </div>
    </div>
