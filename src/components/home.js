@@ -8,8 +8,8 @@ function Home() {
     const { isSticky, element } = useSticky()
     return (
         <>
-            <Navbar sticky={isSticky} />
-            <Welcome element={element} />
+            <Banner sticky={isSticky} />
+            <Hero element={element} />
         </>
     )
 }
