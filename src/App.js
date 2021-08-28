@@ -1,70 +1,42 @@
-import 'bulma/css/bulma.min.css';
+import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import Home from './components/pages/Home';
+//import About from './components/pages/About';
+//import Register from './components/auth/Register';
+//import Login from './components/auth/Login';
+//import Alerts from './components/layout/Alerts';
+//import PrivateRoute from './components/routing/PrivateRoute';
+
+//import ContactState from './context/contact/ContactState';
+//import AuthState from './context/auth/AuthState';
+//import AlertState from './context/alert/AlertState';
+import './App.css';
+
 const App = () => {
-    return (
-      <div>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-              <div class="navbar-brand">
-                <a class="navbar-item" href="https://bulma.io">
-                  <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
-                </a>
-            
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                </a>
+  return (
+    <AuthState>
+      <ContactState>
+        <AlertState>
+          <Router>
+            <Fragment>
+              <Navbar />
+              <div className='container'>
+                <Alerts />
+                <Switch>
+                  <PrivateRoute exact path='/' component={Home} />
+                  <Route exact path='/about' component={About} />
+                  <Route exact path='/register' component={Register} />
+                  <Route exact path='/login' component={Login} />
+                </Switch>
               </div>
-            
-              <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                  <a class="navbar-item">
-                    Home
-                  </a>
-            
-                  <a class="navbar-item">
-                    Documentation
-                  </a>
-            
-                  <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                      More
-                    </a>
-            
-                    <div class="navbar-dropdown">
-                      <a class="navbar-item">
-                        About
-                      </a>
-                      <a class="navbar-item">
-                        Jobs
-                      </a>
-                      <a class="navbar-item">
-                        Contact
-                      </a>
-                      <hr class="navbar-divider"/>
-                      <a class="navbar-item">
-                        Report an issue
-                      </a>
-                    </div>
-                  </div>
-                </div>
-            
-                <div class="navbar-end">
-                  <div class="navbar-item">
-                    <div class="buttons">
-                      <a class="button is-primary">
-                        <strong>Sign up</strong>
-                      </a>
-                      <a class="button is-light">
-                        Log in
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </nav>
-      </div>
-    )
-}
+            </Fragment>
+          </Router>
+        </AlertState>
+      </ContactState>
+    </AuthState>
+  );
+};
 
 export default App;
 
