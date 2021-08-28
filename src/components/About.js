@@ -1,22 +1,61 @@
-import React from "react";
+import React,{ Fragment, Component } from 'react';
+import { createClient } from "contentful";
+//import HomeIterm from './homeIterm';
+import Banner from './Banner';
+import Hero from './Hero';
+//import Banner from './banner'
+import ArtistsList from './artistsList';
 
-const About = () => (
-  <section className="about">
-    <p className="welcome--about">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-      sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-      amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-      minima veniam, quis nostrum exercitationem ullam corporis suscipit
-      laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-      iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-      consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-    </p>
-  </section>
-);
+// REQUESTS URL
+//const client = contentful.createClient({
+//  space: "9heip63yijn8",
+//  accessToken: "CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek" })
+
+//const URL_ARTIST = 'http://192.168.0.250:7000/artists'
+
+class Home extends Component {
+//    constructor(props){
+//        super(props)
+
+//        this.state = {
+//            artists:''
+//        }
+//   }
+constructor() {
+    super();
+    this.state = { posts: [] };
+    this.client = createClient({
+      accessToken:
+        "CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek",
+      space: "9heip63yijn8"
+    });
+}
+  
+
+componentDidMount() {
+    this.fetchPosts().then(this.setPosts);
+  }
+fetchPosts = () => this.client.getEntries()
+
+setPosts = response => {
+    this.setState({
+      posts: response.items
+    })
+  }
+
+    render(){
+        return(
+            <Fragment>
+      
+      <div className="container">
+      { this.state.posts.map(({fields}, i) =>
+        <ArtistsList key={i} {...fields} />
+      )}
+    </div>
+    </Fragment>
+        )
+    }
+}
+
 
 export default About;
