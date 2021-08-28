@@ -10,6 +10,7 @@ function Home() {
         <>
             <Banner sticky={isSticky} />
             <Hero element={element} />
+            <About/>
         </>
     )
 }
