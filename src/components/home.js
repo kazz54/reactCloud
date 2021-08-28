@@ -1,5 +1,5 @@
-
-import React from 'react';
+import React,{ Fragment, Component } from 'react';
+//import React from 'react';
 //import useSticky from './useSticky.js';
 import Banner from './Banner';
 import Hero from './Hero';
