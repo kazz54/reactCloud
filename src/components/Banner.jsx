@@ -3,25 +3,16 @@ import React,{useEffect} from 'react';
 //import Logo from './../img/logo.svg';
 
 const Banner=() => {
-  const [scrolled,setScrolled]=React.useState(false);
+  const nav = document.querySelector('.nav')
+window.addEventListener('scroll', fixNav)
 
-  const handleScroll=() => {
-    const offset=window.scrollY;
-    if(offset > 200 ){
-      setScrolled(true);
+function fixNav() {
+    if(window.scrollY > nav.offsetHeight + 150) {
+        nav.classList.add('active')
+    } else {
+        nav.classList.remove('active')
     }
-    else{
-      setScrolled(false);
-    }
-  }
-  useEffect(() => {
-    window.addEventListener('scroll',handleScroll)
-  })
-
-  let x=['navbar'];
-  if(scrolled){
-    x.push('scrolled');
-  }
+}
   return (
     <nav className="nav">
       <div className="container">
