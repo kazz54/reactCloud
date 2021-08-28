@@ -1,5 +1,5 @@
-//import React, { Fragment } from 'react';
-import React, from 'react';
+import React, { Fragment } from 'react';
+//import React, from 'react';
 //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Banner from './components/Banner';
 import Hero from './components/Hero';
@@ -16,9 +16,10 @@ import './App.css';
 
 const App = () => {
   return (
-    
+       <Fragment>
        <Banner />
         <Hero />
+       </Fragment>
   );
 };
 
