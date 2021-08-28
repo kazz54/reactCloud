@@ -17,6 +17,11 @@ const Banner=() => {
   useEffect(() => {
     window.addEventListener('scroll',handleScroll)
   })
+
+  let x=['navbar'];
+  if(scrolled){
+    x.push('scrolled');
+  }
   return (
     <nav className="nav">
       <div className="container">
