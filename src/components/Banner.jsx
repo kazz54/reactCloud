@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 //import './navbar.scss';
 //import Logo from './../img/logo.svg';
 
-const Navbar=() => {
+const Banner=() => {
   const [scrolled,setScrolled]=React.useState(false);
 
   const handleScroll=() => {
