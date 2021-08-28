@@ -14,7 +14,7 @@ import Hero from './Hero';
              <Banner />
              <Hero />
            
-        <Fragment/>
+        </Fragment>
     )
 }
 }
