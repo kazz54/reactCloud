@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React,{ Fragment, Component } from 'react';
 import { createClient } from "contentful";
 //import HomeIterm from './homeIterm';
 import Banner from './Banner';
@@ -45,7 +45,7 @@ setPosts = response => {
 
     render(){
         return(
-            <div>
+            <Fragment>
       <Banner></Banner>
       <Hero></Hero>
       <div className="container">
@@ -53,6 +53,7 @@ setPosts = response => {
         <ArtistsList key={i} {...fields} />
       )}
     </div>
+    </Fragment>
         )
     }
 }
