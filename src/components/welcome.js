@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Welcome.css'
-import Logo from '../../assets/images/logo.svg'
+import Logo from './logo.svg'
 import About from './About'
 
 const Welcome = ({element}) => {
