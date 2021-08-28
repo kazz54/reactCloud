@@ -1,8 +1,8 @@
 
-import React from 'react'
-import useSticky from './useSticky.js'
-import Welcome from './welcome'
-import Navbar from './navbar'
+import React from 'react';
+import useSticky from './useSticky.js';
+import Banner from './Banner';
+import Hero from './Hero';
 
 function Home() {
     const { isSticky, element } = useSticky()
