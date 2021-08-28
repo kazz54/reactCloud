@@ -5,7 +5,7 @@ import React,{useEffect} from 'react';
 const Banner = ({ sticky }) => { 
 
   return (
-    <nav className={sticky ? "navbar navbar-sticky" : "navbar"}>
+    <nav className={sticky ? "nav navbar-sticky" : "navbar"}>
       <div className="container">
         <h1 className="logo"><a href="/index.html">My Website</a></h1>
         <ul>
