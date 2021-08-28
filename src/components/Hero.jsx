@@ -11,7 +11,7 @@ const Hero = ({element}) => {
       
      
       <section className="container content">
-        <About \>
+        <About />
       </section>
     </div>
    </div>
