@@ -1,8 +1,8 @@
 import React,{ Component } from 'react';
 import { createClient } from "contentful";
 //import HomeIterm from './homeIterm';
-
-
+import Banner from './Banner';
+import Hero from './Hero';
 //import Banner from './banner'
 import ArtistsList from './artistsList';
 
