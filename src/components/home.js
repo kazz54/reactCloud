@@ -8,6 +8,7 @@ import Hero from './Hero';
 //    const { isSticky, element } = useSticky()
  
   class Home extends Component {
+    render(){
     return (
              <Fragment>
              <Banner />
@@ -16,5 +17,5 @@ import Hero from './Hero';
         <Fragment/>
     )
 }
-
+}
 export default Home
