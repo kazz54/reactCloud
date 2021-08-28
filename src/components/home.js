@@ -48,6 +48,7 @@ setPosts = response => {
             <div>
       <Banner></Banner>
       <Hero></Hero>
+      <div className="container">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
