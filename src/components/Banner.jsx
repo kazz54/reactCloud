@@ -24,7 +24,7 @@ const Navbar=() => {
   }
   return (
     <header className={x.join(" ")}>
-        <div className="logo">
+        
           
 
         <nav className="navigation">
