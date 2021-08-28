@@ -6,7 +6,8 @@ import Hero from './Hero';
 //import About from './About';
 //function Home() {
 //    const { isSticky, element } = useSticky()
-  
+ 
+  class Home extends Component {
     return (
         <>
             <Banner sticky={isSticky} />
