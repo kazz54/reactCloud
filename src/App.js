@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
+import Banner from './components/Banner';
 import Home from './components/pages/Home';
 //import About from './components/pages/About';
 //import Register from './components/auth/Register';
