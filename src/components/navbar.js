@@ -1,6 +1,6 @@
 import React from "react";
-import "./Navbar.css";
-import Logo from "../../assets/images/logo.svg";
+import "./navbar.css";
+import Logo from "./logo.svg";
 
 const Navbar = ({ sticky }) => {
 return (
