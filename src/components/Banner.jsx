@@ -6,6 +6,7 @@ const Banner = ({ sticky }) => {
 
   return (
     <nav className={sticky ?"nav : "navbar"}>
+    <nav className={sticky ? "navbar navbar-sticky" : "navbar"}>
       <div className="container">
         <h1 className="logo"><a href="/index.html">My Website</a></h1>
         <ul>
