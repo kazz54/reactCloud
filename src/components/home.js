@@ -46,8 +46,8 @@ setPosts = response => {
     render(){
         return(
             <div>
-      <p>This is the Blog Page</p>
-      <br/>
+      <Banner></Banner>
+      <Hero></Hero>
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
