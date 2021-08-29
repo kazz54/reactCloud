@@ -29,7 +29,7 @@ const Navbar=() => {
        </div>
 
         
-     <nav className="navbar">
+     <nav className="nav">
       <div className="container">
         <h1 className="logo"><a href="/index.html">My Website</a></h1>
         <ul>
