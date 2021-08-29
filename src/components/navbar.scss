@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-.navbar .container {
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: fixed;
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,99 +34,35 @@
   transition: all 0.3s ease-in-out;
 }
 
-.navbar ul {
+.nav ul {
   display: flex;
   list-style-type: none;
   align-items: center;
   justify-content: center;
 }
 
-.navbar a {
+.nav a {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
   transition: all 0.3s ease-in-out;
 }
 
-.navbar.active {
+.nav.active {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-.navbar.active a {
+.nav.active a {
   color: #000;
 }
 
-.navbar.active .container {
+.nav.active .container {
   padding: 10px 0;
 }
 
-.navbar a.current,
-.navbar a:hover {
+.nav a.current,
+.nav a:hover {
   color: #c0392b;
   font-weight: bold;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-
-
-.navbar{
-  width: 100%;
-  max-width: 100%;
-  min-height: 6vh;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /*background-color: #eee;*/
-  background-color: #222;
-  transition: all 0.3s ease-in-out;
-  /*transition: all .2s ease;*/
-}
-
-.scrolled{
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: lightblue;
-}
-.logo img{
-  width: 50px;
-}
-
-.navigation{
-  ul{
-    box-sizing: border-box;
-    list-style-type: none;
-    display: flex;
-    min-height: 6vh;
-    justify-content: flex-end;
-    align-items: center;
-
-    li{
-      text-align: center;
-      padding: .5em;
-      cursor: pointer;
-      &:hover{
-        background-color: plum;
-        color: white;
-      }
-    }
-
-    li a{
-      text-decoration: none;
-      color: inherit;
-    }
-
-  }
 }
