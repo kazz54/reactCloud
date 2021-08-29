@@ -47,12 +47,13 @@ setPosts = response => {
     render(){
         return(
             <Fragment>
-      <Banner></Banner>
-      <Hero></Hero>
-      <div className="container">
+      
+      <div className="box">
+      <div className="content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
+    </div>
     </div>
     </Fragment>
         )
