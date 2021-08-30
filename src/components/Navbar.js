@@ -24,9 +24,7 @@ const Navbar=() => {
   }
   return (
     <header className={x.join(" ")}>
-        <div className="logo">
-          <img src={Logo} alt="Logo" title="Logo" />
-       </div>
+        
 
         <nav className="navigation">
             <div className="container">
