@@ -48,12 +48,12 @@ setPosts = response => {
         return(
             <Fragment>
       
-       
+       <div className="container">
       <section class="container content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
-    </section>
+    </div>
     
     </Fragment>
         )
