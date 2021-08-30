@@ -29,12 +29,15 @@ const Navbar=() => {
        </div>
 
         <nav className="navigation">
-            <ul>
-              <li><a href="#post1">Home</a></li>
-              <li><a href="#post2">Home</a></li>
-              <li><a href="#post3">Home</a></li>
-              <li><a href="#post4">Home</a></li>
-            </ul>
+            <div className="container">
+        <h1 className="logo"><a href="/index.html">My Website</a></h1>
+        <ul>
+          <li><a href="#" className="current">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
         </nav>
      
     </header>
