@@ -36,22 +36,21 @@ body {
   padding: 20px 0;
   transition: all 0.3s ease-in-out;
 }
-.navigation{
-.navbar ul {
+.navbar .navigation ul {
   display: flex;
   list-style-type: none;
   align-items: center;
   justify-content: center;
 }
 
-.navbar a {
+.navbar .navigation a {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
   transition: all 0.3s ease-in-out;
 }
 
-.navbar.active {
+.navbar.active .navigation {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
@@ -69,7 +68,7 @@ body {
   color: #c0392b;
   font-weight: bold;
 }
-}
+
 .scrolled{
   position: fixed;
   top: 0;
