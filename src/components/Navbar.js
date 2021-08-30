@@ -36,13 +36,6 @@ const Navbar=() => {
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-     
-     <div class="hero">
-      <div class="container">
-        <h1>Welcome To My Website</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
-      </div>
-    </div>
     </nav>
     </header>
   )
