@@ -10,6 +10,11 @@ body {
   padding-bottom: 50px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .navbar{
   width: 100%;
   max-width: 100%;
@@ -29,13 +34,15 @@ body {
   /* transition: all 0.3s ease-in-out; */
 }
 
-.navbar {
+/*.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
   transition: all 0.3s ease-in-out;
 }
+*/
+
 .navbar  ul {
   display: flex;
   list-style-type: none;
