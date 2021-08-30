@@ -3,7 +3,7 @@ import { createClient } from "contentful";
 import './content.scss';
 //import HomeIterm from './homeIterm';
 //import Banner from './Banner';
-import Hero from './Hero';
+//import Hero from './Hero';
 //import Banner from './banner'
 import ArtistsList from './artistsList';
 
@@ -48,7 +48,7 @@ setPosts = response => {
         return(
             <Fragment>
       
-       <Hero />
+       
       <section class="container content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
