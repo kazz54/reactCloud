@@ -10,10 +10,7 @@ body {
   padding-bottom: 50px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 
 .navbar{
   width: 100%;
@@ -41,7 +38,7 @@ body {
 }
 */
 
-.navbar .container {
+.navbar  {
   display: flex;
   justify-content: space-between;
   align-items: center;
