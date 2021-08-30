@@ -54,7 +54,7 @@ setPosts = response => {
         <ArtistsList key={i} {...fields} />
       )}
     </div>
-    </div>
+    
     </Fragment>
         )
     }
