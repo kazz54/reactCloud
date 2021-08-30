@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+//import Hero from './components/Hero';
 import Home from './components/Home';
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+//      <Hero />
       <Home />
     </div>
   );
