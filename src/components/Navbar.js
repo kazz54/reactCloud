@@ -24,9 +24,7 @@ const Navbar=() => {
   }
   return (
     <header className={x.join(" ")}>
-       <div className="logo">
-          <img src={Logo} alt="Logo" title="Logo" />
-       </div> 
+       
 
         <nav className="navigation">
             <div className="container">
@@ -39,7 +37,10 @@ const Navbar=() => {
         </ul>
       </div>
         </nav>
-     
+     <div class="container">
+        <h1>Welcome To My Website</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
+      </div>
     </header>
   )
 };
