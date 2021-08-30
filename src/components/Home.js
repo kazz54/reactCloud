@@ -48,7 +48,12 @@ setPosts = response => {
         return(
             <Fragment>
       
-      
+       <div class="hero">
+      <div class="container">
+        <h1>Welcome To My Website</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
+      </div>
+    </div>
       <div className="content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
