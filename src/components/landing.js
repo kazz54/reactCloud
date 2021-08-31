@@ -60,6 +60,7 @@ setPosts = response => {
         <ArtistsList key={i} {...fields} />
       )}
     </section>
+   </div>
     </Fragment>
         )
     }
