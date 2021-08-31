@@ -25,7 +25,7 @@ const Banner=() => {
     <header className={x.join(" ")}>
        
 
-        <nav className="navigation">
+        <nav className="nav">
             <div className="container">
         
         <ul>
