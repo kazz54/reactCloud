@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react';
-//import './navbar.scss';
 //import Logo from './logo.svg';
 
 const Banner=() => {
