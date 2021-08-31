@@ -28,7 +28,7 @@ const Banner=() => {
         <nav className="navigation">
           
             <div className="container">
-        
+        <h1 class="logo"><a href="/index.html">My Website</a></h1>
         <ul>
           <li><a href="#" className="current">Home</a></li>
           <li><a href="#">About</a></li>
