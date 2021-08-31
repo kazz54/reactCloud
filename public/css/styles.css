@@ -120,3 +120,30 @@ body {
   line-height: 30px;
   letter-spacing: 1.2px;
 }
+
+.navigation{
+  ul{
+    box-sizing: border-box;
+    list-style-type: none;
+    display: flex;
+    min-height: 6vh;
+    justify-content: flex-end;
+    align-items: center;
+
+    li{
+      text-align: center;
+      padding: .5em;
+      cursor: pointer;
+      &:hover{
+        background-color: plum;
+        color: white;
+      }
+    }
+
+    li a{
+      text-decoration: none;
+      color: inherit;
+    }
+
+  }
+}
