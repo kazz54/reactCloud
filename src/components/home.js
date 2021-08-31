@@ -2,7 +2,7 @@ import React,{ Fragment, Component } from 'react';
 import { createClient } from "contentful";
 //import HomeIterm from './homeIterm';
 import Banner from './Banner';
-import Hero from './Hero';
+//import Hero from './Hero';
 //import Banner from './banner'
 import ArtistsList from './artistsList';
 
@@ -47,7 +47,7 @@ setPosts = response => {
         return(
             <Fragment>
       <Banner></Banner>
-      <Hero></Hero>
+      
       <section class="container content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
