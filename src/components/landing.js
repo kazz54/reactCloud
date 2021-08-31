@@ -47,11 +47,8 @@ setPosts = response => {
         return(
             <Fragment>
       <div className="container">
-      <Banner></Banner>
-      <Hero></Hero>
-      <main><h2>A Demo Site showcasing CSS Grid</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo libero doloremque, eum quis laudantium hic iste ab sed ipsum veniam, quam dolor rem cupiditate corrupti aliquam repudiandae officia soluta impedit!</p>
+     
+      
     <section className main>
      <h2>A Demo Site showcasing CSS Grid</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
