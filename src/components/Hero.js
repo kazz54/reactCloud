@@ -4,22 +4,23 @@ import './content.scss';
 const Hero=() => {
 
   const data=(
-  	<div className="box">
-  		<h2>My div content </h2>
+  	<div className="hero">
+  	<h1>Welcome To My Website</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
   	</div>
   )
 
   return (
-    <main className="content">
+    <main className="container">
+	    
 	    {data}
-	    {data}
-	    {data}
-	    {data}
-	    {data}
-	    {data}
-	    {data}
-	    {data}
-	    {data}
+	    
+	    
+	    
+	    
+	    
+	   
+	    
     </main>
   )
 }
