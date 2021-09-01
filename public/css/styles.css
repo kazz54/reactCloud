@@ -172,8 +172,11 @@ grid-template-rows: 0.4fr 0.4fr
 .grid-2 {
   display: grid;
   height: 100vh;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+ grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+    "main main main main"
+    "about about about sideb";
   gap: 0.5rem;
   font-weight: 800;
   font-size: 12px;
@@ -190,6 +193,28 @@ grid-template-rows: 0.4fr 0.4fr
 .item-2 {
   background: #33a8a5;
   width: 100%;
+}
+
+main {
+  grid-area: main;
+}
+
+main h2 {
+  font-weight: bolder;
+}
+
+main p{
+text-align: left;
+}
+
+.sidebar {
+  background: #D3D4D7;
+  grid-area: sidebar;
+}
+
+.about {
+  background: #D7D6D3;
+  grid-area: about;
 }
 .content h2,
 .content h3 {
