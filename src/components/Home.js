@@ -49,11 +49,24 @@ setPosts = response => {
             <Fragment>
        <Hero />
        
-      
-      <section className="container content">
+      <section class="grid-1">
+  <div class="item-1">1</div>
+  <div class="item-2">2</div>
+  <div class="item-3">3</div>
+  <div class="item-4">4</div>
+  <div class="item-5">5</div>
+  <div class="item-6">6</div>
+  <div class="item-7">7</div>
+  <div class="item-8">8</div>
+  <div class="item-9">9</div>
+</section>
+      <section className="grid-1">
+      <div class="item-1">1</div>
+      <div className="item-2">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
+     </div>
     </section>
     
     </Fragment>
