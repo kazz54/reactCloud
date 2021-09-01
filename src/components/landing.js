@@ -58,6 +58,14 @@ setPosts = response => {
     <p><a href="https://twitter.com/charliecodes">Twitter</a></p>
     <p><a href="https://www.linkedin.com/in/charleseteure/">LinkedIn</a></p>
   </div>
+   <div className="about"><h2>About </h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptatem reprehenderit non. Magni sit alias quia, vel quidem autem quos optio quam at porro aliquid necessitatibus aut et eos nulla.</p>
+  </div>
+  <div className="contact"><h2>Contact</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur magnam ipsum, commodi quam, non dolorem numquam veritatis, qui nam voluptas asperiores neque magni. Placeat, natus reprehenderit. Fugit, voluptatum commodi.</p>
+  </div>
+  <footer>Built with <3 by <a href="https://twitter.com/charliecodes">Charles Freeborn</a></footer>
+</div>
       <section class="container content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
