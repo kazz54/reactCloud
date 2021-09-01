@@ -49,16 +49,17 @@ setPosts = response => {
             <Fragment>
        <Hero />
       <section className="grid-1">
-      <div className="item-2">
-<p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-m</p>
-</div>
+      
       <div className="item-1">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
      </div>
+    <div className="item-2">
+<p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+m</p>
+</div>
     </section>
     
     </Fragment>
