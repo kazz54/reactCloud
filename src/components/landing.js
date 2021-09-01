@@ -64,7 +64,8 @@ setPosts = response => {
   <div className="contact"><h2>Contact</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur magnam ipsum, commodi quam, non dolorem numquam veritatis, qui nam voluptas asperiores neque magni. Placeat, natus reprehenderit. Fugit, voluptatum commodi.</p>
   </div>
-  <div className="footer"><p>Built with <3 by <a href="https://twitter.com/charliecodes">Charles Freeborn</a></p></div>
+  <div className="footer"> <a href="https://twitter.com/charliecodes">Charles Freeborn</a>
+</div>
 
       <section class="container content">
       { this.state.posts.map(({fields}, i) =>
