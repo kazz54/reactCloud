@@ -153,8 +153,8 @@ body {
 .grid-1 {
   display: grid;
   height: 100vh;
-  grid-template-columns: repeat(1, 2fr);
-  grid-template-rows: auto;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: auto auto;
   gap: 0.5rem;
   font-weight: 800;
   font-size: 150%;
