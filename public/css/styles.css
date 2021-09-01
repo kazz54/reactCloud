@@ -170,11 +170,11 @@ body {
 
 .item-1 {
   background: #b03532;
-  width: 200px;
+  width: 100%;
 }
 .item-2 {
   background: #33a8a5;
-  width: 200px;
+  width: 100%;
 }
 .content h2,
 .content h3 {
