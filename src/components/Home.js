@@ -61,7 +61,7 @@ m</p>
 m</p>
 </div>
     </section>
-    <div className="item-5">
+    <div className="main">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
