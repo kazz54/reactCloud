@@ -54,7 +54,10 @@ setPosts = response => {
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo libero doloremque, eum quis laudantium hic iste ab sed ipsum veniam, quam dolor rem cupiditate corrupti aliquam repudiandae officia soluta impedit!</p>
   </div>
-      
+        <div className="sidebar img"><h2>Find Me on Social Media</h2>
+    <p><a href="https://twitter.com/charliecodes">Twitter</a></p>
+    <p><a href="https://www.linkedin.com/in/charleseteure/">LinkedIn</a></p>
+  </div>
       <section class="container content">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
