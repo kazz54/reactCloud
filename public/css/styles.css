@@ -154,7 +154,7 @@ body {
   display: grid;
   height: 100vh;
   grid-template-columns: 150px 150px;
-grid-template-rows: 80px 100px;
+
   /*grid-template-rows: 0.4fr 0.4fr;*/
   gap: 0.5rem;
   font-weight: 800;
