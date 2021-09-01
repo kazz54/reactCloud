@@ -154,7 +154,8 @@ body {
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(4, [col] 2fr);
-
+ 
+grid-template-rows: 0.4fr 0.4fr
   /*grid-template-rows: 0.4fr 0.4fr;*/
   gap: 0.5rem;
   font-weight: 800;
