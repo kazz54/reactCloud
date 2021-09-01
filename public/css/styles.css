@@ -150,7 +150,36 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
 }
+.grid-1 {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto;
+}
+display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(1, 2fr);
+  grid-template-rows: 0.2fr 1.5fr;
+  grid-template-areas:
+  gap: 0.5rem;
+  font-weight: 800;
+  font-size: 150%;
+  margin:20px 0;
+  text-align: center;
+}
+.grid-1 div {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  }
+/* specific item styles */
 
+.item-1 {
+  background: #b03532;
+}
+.item-2 {
+  background: #33a8a5;
+}
 .content h2,
 .content h3 {
   font-size: 150%;
