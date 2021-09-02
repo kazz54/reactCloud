@@ -49,19 +49,25 @@ setPosts = response => {
             <Fragment>
        
       
-        <div className="main">
-<p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-m</p>
+        <div className="main"><h2>A Demo Site showcasing CSS Grid</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo libero doloremque, eum quis laudantium hic iste ab sed ipsum veniam, quam dolor rem cupiditate corrupti aliquam repudiandae officia soluta impedit!</p>
+  </div>
+  <div className="sidebar img"><h2>Find Me on Social Media</h2>
+    <p><a href="https://twitter.com/charliecodes">Twitter</a></p>
+    <p><a href="https://www.linkedin.com/in/charleseteure/">LinkedIn</a></p>
+  </div>
+  <div className="about"><h2>About </h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptatem reprehenderit non. Magni sit alias quia, vel quidem autem quos optio quam at porro aliquid necessitatibus aut et eos nulla.</p>
+  </div>
+  <div className="contact"><h2>Contact</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur magnam ipsum, commodi quam, non dolorem numquam veritatis, qui nam voluptas asperiores neque magni. Placeat, natus reprehenderit. Fugit, voluptatum commodi.</p>
+  </div>
+  <div className="footer">Built with <3 by <a href="https://twitter.com/charliecodes">Charles Freeborn</a>
 </div>
-      
-    <div className="item-2">
-<p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-m</p>
-</div>
+  
     
-    <div className="main">
+    <div className="tr">
       { this.state.posts.map(({fields}, i) =>
         <ArtistsList key={i} {...fields} />
       )}
