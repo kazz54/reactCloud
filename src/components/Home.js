@@ -3,7 +3,7 @@ import { createClient } from "contentful";
 //import './content.scss';
 //import HomeIterm from './homeIterm';
 //import Banner from './Banner';
-import Hero from './Hero';
+//import Hero from './Hero';
 //import Banner from './banner'
 import ArtistsList from './artistsList';
 
@@ -47,7 +47,7 @@ setPosts = response => {
     render(){
         return(
             <Fragment>
-       <Hero />
+       
       
         <div className="main">
 <p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
