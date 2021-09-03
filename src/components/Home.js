@@ -4,7 +4,7 @@ import { createClient } from "contentful";
 //import HomeIterm from './homeIterm';
 //import Banner from './Banner';
 //import Hero from './Hero';
-//import Banner from './banner'
+import Banner from './banner'
 import ArtistsList from './artistsList';
 
 // REQUESTS URL
@@ -49,13 +49,8 @@ setPosts = response => {
             <Fragment>
        
       <div className="container">
-      <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>  
-  </nav>
+     <Banner><Banner/>
+    
 
         <div className="main"><h2>A Demo Site showcasing CSS Grid</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
