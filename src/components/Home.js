@@ -2,9 +2,9 @@ import React,{ Fragment, Component } from 'react';
 import { createClient } from "contentful";
 //import './content.scss';
 //import HomeIterm from './homeIterm';
-//import Banner from './Banner';
+import Banner from './Banner';
 //import Hero from './Hero';
-import Banner from './banner'
+//import Banner from './banner'
 import ArtistsList from './artistsList';
 
 // REQUESTS URL
