@@ -48,7 +48,7 @@ setPosts = response => {
         return(
             <Fragment>
        
-      <div className="container">
+      
       <nav>
     <ul>
       <li><a href="#">Home</a></li>
@@ -56,6 +56,7 @@ setPosts = response => {
       <li><a href="#">Contact</a></li>
     </ul>  
   </nav>
+<div className="container">
         <div className="main"><h2>A Demo Site showcasing CSS Grid</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo libero doloremque, eum quis laudantium hic iste ab sed ipsum veniam, quam dolor rem cupiditate corrupti aliquam repudiandae officia soluta impedit!</p>
@@ -74,7 +75,11 @@ setPosts = response => {
 </div>
  </div> 
     
-    
+    <div className="tr">
+      { this.state.posts.map(({fields}, i) =>
+        <ArtistsList key={i} {...fields} />
+      )}
+     </div>
     </Fragment>
         )
     }
