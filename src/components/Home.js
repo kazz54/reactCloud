@@ -50,7 +50,7 @@ setPosts = response => {
        
       <div className="container">
      <Banner></Banner>
-    <\div>
+    </div>
 
         <div className="main"><h2>A Demo Site showcasing CSS Grid</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
