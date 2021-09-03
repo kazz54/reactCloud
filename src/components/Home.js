@@ -74,11 +74,7 @@ setPosts = response => {
 </div>
  </div> 
     
-    <div className="tr">
-      { this.state.posts.map(({fields}, i) =>
-        <ArtistsList key={i} {...fields} />
-      )}
-     </div>
+    
     </Fragment>
         )
     }
