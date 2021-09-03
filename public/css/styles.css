@@ -31,7 +31,7 @@ body{
   transition: all 0.3s ease-in-out;
 }
 
-.navbar .container {
+.navbar .containerbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +62,7 @@ body{
   color: #000;
 }
 
-.navbar.active .container {
+.navbar.active .containerbar {
   padding: 10px 0;
 }
 
@@ -78,7 +78,7 @@ body{
   background-color: lightblue;
 }
 .navigation{
-.navbar .container {
+.navbar .containerbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,7 +109,7 @@ body{
   color: #000;
 }
 
-.navbar.active .container {
+.navbar.active .containerbar {
   padding: 10px 0;
 }
 
