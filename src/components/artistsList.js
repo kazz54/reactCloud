@@ -8,8 +8,8 @@ const ArtistsList = (props) =>{
     return (
   <div className="containerone">
    {props.title}
-   
-  {props.content}
+   <Markdown>{props.content}</Markdown>
+  
  </div>
        
 
