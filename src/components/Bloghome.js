@@ -32,7 +32,7 @@ function Bloghome() {
         
             
         
-        setPage(data.blogCollection.items);
+        setPage(data.blogCollection.items[0]);
       });
   }, []);
 
