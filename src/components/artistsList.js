@@ -6,10 +6,10 @@ import * as ReactMarkdown from 'react-markdown';
 
 const ArtistsList = (props) =>{
   const markdown=(
-  <div className="box content">
+  
    {props.title}
    {props.content}
-  </div>
+  
 )
 
      return (
