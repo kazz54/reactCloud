@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const query = `
 {
-  BlogPost {
+   pageCollection{
     items {
       title
     }
@@ -30,7 +30,7 @@ function Bloghome() {
           console.error(errors);
         }
 
-        setPage(data.BlogPost.items[0]);
+        setPage(data.pageCollection.items[0]);
       });
   }, []);
 
