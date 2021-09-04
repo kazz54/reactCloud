@@ -20,7 +20,7 @@ function Bloghome() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer [CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek]",
+          Authorization: "Bearer CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek",
         },
         body: JSON.stringify({ query }),
       })
