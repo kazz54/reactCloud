@@ -5,17 +5,34 @@ import * as Markdown from 'react-markdown';
 
 
 const ArtistsList = (props) =>{
-    return (
-  <div className="containerone">
+
+const data=(
+  	<div className="containerone">
    {props.title}
-   <Markdown>{props.content}</Markdown>
+   {props.content}
   
  </div>
+  )
+
+  return (
+    <main className="container">
+	    
+	    {data}
+	    
+	    
+	    
+	    
+	    
+	   
+	    
+    </main>
+  )
+}
+    
+  
        
 
-   )             
-            
-       }
+  
    
 
 export default ArtistsList;
