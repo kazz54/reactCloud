@@ -7,8 +7,8 @@ import * as Markdown from 'react-markdown';
 const ArtistsList = (props) =>{
   return (
   <div className="box content">
-    <h1>{props.title}</h1>
-   <Markdown source={props.content} />
+   {props.title}
+   {props.content}
   </div>
 )
 
