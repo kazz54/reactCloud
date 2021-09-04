@@ -9,7 +9,7 @@ const ArtistsList = (props) =>{
   <div className="containerone">
    {props.title}
    
-  <Markdown source={props.content} />
+  {props.content}
  </div>
        
 
