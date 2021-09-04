@@ -5,7 +5,7 @@ import * as Markdown from 'react-markdown';
 
 
 const ArtistsList = (props) =>{
-  
+    return (
   <div className="containerone">
    {props.title}
    
@@ -13,7 +13,7 @@ const ArtistsList = (props) =>{
  </div>
        
 
-                
+   )             
             
        }
    
