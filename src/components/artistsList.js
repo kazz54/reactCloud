@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import * as Markdown from 'react-markdown';
 
 
-const ArtistsList = (props) =>{
+const MyList = (props) =>{
 
 const data=(
   	<div className="containerone">
@@ -12,29 +12,9 @@ const data=(
    {props.content}
   
  </div>
-  )
-
-  return (
-    <main className="container">
-	    
-	    {data}
-	    
-	    
-	    
-	    
-	    
-	   
-	    
-    </main>
-  )
-}
+  )	    
     
-  
-       
-
-  
-   
-
+}
 export default ArtistsList;
 
 
