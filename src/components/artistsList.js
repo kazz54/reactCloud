@@ -11,7 +11,7 @@ const ArtistsList = (props) =>{
    
   <Markdown source={props.content} />
  </div>
-)         
+       
 
                 
             
