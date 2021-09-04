@@ -29,8 +29,10 @@ function Bloghome() {
         if (errors) {
           console.error(errors);
         }
-
-        setPage(data.blogCollection.items[0]);
+        
+            
+        
+        setPage(data.blogCollection.items);
       });
   }, []);
 
