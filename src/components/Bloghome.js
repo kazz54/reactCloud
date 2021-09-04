@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./App.css";
+//import "./App.css";
 
 const query = `
 {
@@ -14,7 +14,7 @@ const query = `
 }
 `;
 
-function App() {
+function Bloghome() {
   const [page, setPage] = useState(null);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ function App() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer [YOUR_ACCESS_TOKEN]",
+          Authorization: "Bearer [CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek]",
         },
         body: JSON.stringify({ query }),
       })
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default Bloghome;
