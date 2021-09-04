@@ -30,7 +30,7 @@ function Bloghome() {
           console.error(errors);
         }
 
-        setPage(data.pageCollection.items[0]);
+        setPage(data.BlogPost.items[0]);
       });
   }, []);
 
