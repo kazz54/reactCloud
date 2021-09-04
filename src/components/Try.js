@@ -2,6 +2,16 @@
 // REQUESTS URL
 const URL_ARTIST = 'http://192.168.0.250:7000/artists'
 
+
+const query = `
+{
+   blogCollection{
+    items {
+      titile
+    }
+  }
+}
+`;
 class Home extends Component {
     constructor(props){
         super(props)
