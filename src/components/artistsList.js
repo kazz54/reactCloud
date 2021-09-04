@@ -1,3 +1,35 @@
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import * as Markdown from 'react-markdown';
+
+
+const ArtistsList = (props) =>{
+
+                return (
+    <div className="container">
+	    
+     <ReactMarkdown source={markdown} />
+	    	   	    
+    </div>
+  )
+                
+            return (
+  <div className="box content">
+    <h1>{props.title}</h1>
+   <Markdown source={props.content} />
+  </div>
+)
+                
+            
+       }
+   
+
+export default ArtistsList;
+
+
+
+
 const Hero=() => {
 
   const data=(
@@ -7,17 +39,5 @@ const Hero=() => {
   	</div>
   )
 
-  return (
-    <main className="container">
-	    
-	    {data}
-	    
-	    
-	    
-	    
-	    
-	   
-	    
-    </main>
-  )
+  
 }
