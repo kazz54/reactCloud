@@ -5,8 +5,14 @@ import * as Markdown from 'react-markdown';
 
 
 const ArtistsList = (props) =>{
+  return (
+  <div className="box content">
+    <h1>{props.title}</h1>
+   <Markdown source={props.content} />
+  </div>
+)
 
-                return (
+     return (
     <div className="container">
 	    
      <ReactMarkdown source={markdown} />
@@ -14,12 +20,7 @@ const ArtistsList = (props) =>{
     </div>
   )
                 
-            return (
-  <div className="box content">
-    <h1>{props.title}</h1>
-   <Markdown source={props.content} />
-  </div>
-)
+
                 
             
        }
