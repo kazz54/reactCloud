@@ -3,12 +3,9 @@ import { useState, useEffect } from "react";
 
 const query = `
 {
-  pageCollection {
+  BlogPost {
     items {
       title
-      logo {
-        url
-      }
     }
   }
 }
@@ -45,7 +42,6 @@ function Bloghome() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={page.logo.url} className="App-logo" alt="logo" />
         <p>{page.title}</p>
       </header>
     </div>
