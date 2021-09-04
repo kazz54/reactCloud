@@ -5,7 +5,7 @@ const query = `
 {
    blogCollection{
     items {
-      title
+      titile
     }
   }
 }
@@ -42,7 +42,7 @@ function Bloghome() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>{page.title}</p>
+        <p>{page.titile}</p>
       </header>
     </div>
   );
