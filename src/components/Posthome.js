@@ -37,13 +37,13 @@ class Posthome extends Component {
     }
 
 
-    render(){
+    
         return(
             <div className="fg">
 
             </div>
         )
-    }
+    
 }
 
 export default Posthome;
