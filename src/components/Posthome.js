@@ -24,7 +24,7 @@ class Posthome extends Component {
           Authorization: "Bearer CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek",
         },
         })
-        .then(response => response.json())
+//        .then(response => response.json())
 //        .then(({ data, errors }) => {
 //        if (errors) {
 //         console.error(errors);
@@ -37,13 +37,27 @@ class Posthome extends Component {
 //   }
 
 
-    
-        return(
-            <div className="fg">
+    .then(response => response.json())
+        .then(json => {
+            this.setState({artists:json})
+        })
+    }
 
+
+    render(){
+        return(
+            <div>
+                
+                
             </div>
         )
-    
+    }
 }
+        
+
+            
+        
+    
+
 
 export default Posthome;
