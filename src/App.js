@@ -1,16 +1,19 @@
-// Step 1: Import React
-import * as React from 'react'
 
-// Step 2: Define your component
-const App = () => {
+import React from 'react';
+
+//import Navbar from './components/Navbar';
+//import Hero from './components/Hero';
+//import Home from './components/Home';
+import Posthome from './components/Posthome';
+
+
+function App() {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>Welcome to my Gatsby site!</h1>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
-  )
+    <div className="App">
+      
+      <Posthome/>
+    </div>
+  );
 }
 
-// Step 3: Export your component
-export default App
+export default App;
