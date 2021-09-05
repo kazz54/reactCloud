@@ -38,17 +38,17 @@ class Posthome extends Component {
 
 
     .then(response => response.json())
-    console.log()
+  //  console.log()
         .then(json => {
-  //          this.setState({artists:json})
-   //     })
+           this.setState({artists:json})
+      })
     }
-
+    console.log(artists.json)
 
     render(){
         return(
             <div>
-                
+               <p>  this yest </p> 
                 
             </div>
         )
