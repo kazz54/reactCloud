@@ -2,7 +2,7 @@
 import * as React from 'react'
 
 // Step 2: Define your component
-const IndexPage = () => {
+const App = () => {
   return (
     <main>
       <title>Home Page</title>
@@ -13,4 +13,4 @@ const IndexPage = () => {
 }
 
 // Step 3: Export your component
-export default IndexPage
+export default App
