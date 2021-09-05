@@ -34,7 +34,7 @@ class Posthome extends Component {
         
    //     })
        
-    }
+   // }
 
 
     
