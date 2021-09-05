@@ -34,7 +34,7 @@ class Posthome extends Component {
         
    //     })
        
-   // }
+   }
 
 
     
@@ -44,6 +44,6 @@ class Posthome extends Component {
             </div>
         )
     
-}
+//}
 
 export default Posthome;
