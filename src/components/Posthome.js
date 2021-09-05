@@ -18,7 +18,7 @@ class Posthome extends Component {
 
     componentDidMount() {
         fetch(URL_ARTIST, {
-            method: 'Post'
+            method: 'Post',
             headers: {
           "Content-Type": "application/json",
           Authorization: "Bearer CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek",
