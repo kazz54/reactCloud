@@ -34,7 +34,7 @@ function Bloghome() {
  //           this.setState({data.blogCollection.items:json})
   //      })
         
-        setPage(data.blogCollection.items:json);
+        setPage(data.blogCollection.items:[0]);
       });
   }, []);
 
