@@ -43,7 +43,7 @@ class Posthome extends Component {
            this.setState({artists:json})
       })
     }
-    console.log(artists.json)
+    console.log(json)
 
     render(){
         return(
