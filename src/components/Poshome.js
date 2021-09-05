@@ -5,7 +5,7 @@ import React,{ Component } from 'react';
 //import ArtistsList from './artistsList';
 
 // REQUESTS URL
-const URL_ARTIST = 'http://192.168.0.250:7000/artists'
+const URL_ARTIST = 'https://graphql.contentful.com/content/v1/spaces/9heip63yijn8/'
 
 class Home extends Component {
     constructor(props){
