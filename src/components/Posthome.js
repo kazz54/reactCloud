@@ -7,7 +7,7 @@ import React,{ Component } from 'react';
 // REQUESTS URL
 const URL_ARTIST = 'https://graphql.contentful.com/content/v1/spaces/9heip63yijn8/'
 
-class Home extends Component {
+class Posthome extends Component {
     constructor(props){
         super(props)
 
@@ -35,12 +35,11 @@ class Home extends Component {
 
     render(){
         return(
-            <div>
-                
-                <ArtistsList allArtists={this.state.artists}></ArtistsList>
+            <div className="fg">
+
             </div>
         )
     }
 }
 
-export default Home;
+export default Posthome;
