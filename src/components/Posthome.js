@@ -25,10 +25,14 @@ class Posthome extends Component {
         },
         })
         .then(response => response.json())
-        .then(json => {
-            this.setState({artists:json})
+        .then(({ data, errors }) => {
+        if (errors) {
+          console.error(errors);
+        }
+   //     .then(json => {
+  //          this.setState({artists:json})
         
-        })
+   //     })
        
     }
 
