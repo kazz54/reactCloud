@@ -18,7 +18,11 @@ class Home extends Component {
 
     componentDidMount() {
         fetch(URL_ARTIST, {
-            method: 'GET'
+            method: 'Post'
+            headers: {
+          "Content-Type": "application/json",
+          Authorization: "Bearer CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek",
+        },
         })
         .then(response => response.json())
         .then(json => {
