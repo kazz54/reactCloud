@@ -8,7 +8,7 @@ export default class ContentfulApi {
     const fetchOptions = {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.CONTENTFUL_ACCESS_TOKEN}`,
+        Authorization: "Bearer CQ4Ja0XdmfMso-gIfbIxBnEUBCFwIttPKT-R57fvZek",
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ query }),
