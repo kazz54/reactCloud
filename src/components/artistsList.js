@@ -27,7 +27,7 @@ const ArtistsList = (props) =>{
 
                 
                 
-            return (
+   ReactDom.render (
   <div className="box content">
     <h1>{props.title}</h1>
    <Markdown source={props.content} />,
