@@ -6,7 +6,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Post from './Post'
 
-export default function Home({ posts }) {
+export default function HomePost({ posts }) {
   return (
     <div className="container">
       
