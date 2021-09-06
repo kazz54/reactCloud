@@ -4,14 +4,14 @@ import React from 'react';
 //import Navbar from './components/Navbar';
 //import Hero from './components/Hero';
 //import Home from './components/Home';
-import Posthome from './components/Posthome';
+import IndexPage from './components/IndexPage';
 
 
 function App() {
   return (
     <div className="App">
       
-      <Posthome/>
+      <IndexPage/>
     </div>
   );
 }
