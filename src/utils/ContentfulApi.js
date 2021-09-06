@@ -3,7 +3,7 @@
 export default class ContentfulApi {
 
   static async callContentful(query) {
-    const fetchUrl = `https://graphql.contentful.com/content/v1/spaces/${process.env.CONTENTFUL_SPACE_ID}`;
+    const fetchUrl = `https://graphql.contentful.com/content/v1/spaces/9heip63yijn8/`;
 
     const fetchOptions = {
       method: "POST",
