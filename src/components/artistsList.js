@@ -27,7 +27,7 @@ const ArtistsList = (props) =>{
 
                 
                 
-   render (
+   return (
   <div className="box content">
     <h1>{props.title}</h1>
    <Markdown source={props.content} />,
