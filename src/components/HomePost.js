@@ -9,10 +9,10 @@ import Post from './Post'
 export default function Home({ posts }) {
   return (
     <div className="container">
-      <Head>
+      
         <title>Next + Contentful Starter</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      
 
       <main>
         <Header />
