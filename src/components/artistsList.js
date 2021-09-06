@@ -10,7 +10,7 @@ const ArtistsList = (props) =>{
             return (
   <div className="box content">
     <h1>{props.title}</h1>
-   <Markdown>{props.content}</Markdown>
+   <Markdown source={props.content} />
   </div>
 )
                 
