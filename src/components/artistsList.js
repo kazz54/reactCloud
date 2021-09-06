@@ -14,7 +14,7 @@ const ArtistsList=(props) => {
   	</div>
   )
   ReactDom.render(
-  <ReactMarkdown children={markdown} />,
+  <ReactMarkdown source={markdown} />,
   document.body
 )
  
