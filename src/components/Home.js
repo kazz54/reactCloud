@@ -49,7 +49,7 @@ setPosts = response => {
             <Fragment>
        
       <div className="container">
-  //   <Banner></Banner>
+  
     
 
         <div className="main"><h2>A Demo Site showcasing CSS Grid</h2>
