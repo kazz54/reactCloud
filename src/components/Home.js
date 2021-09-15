@@ -2,7 +2,7 @@ import React,{ Fragment, Component } from 'react';
 import { createClient } from "contentful";
 //import './content.scss';
 //import HomeIterm from './homeIterm';
-//import Banner from './Banner';
+import Banner from './Banner';
 //import Hero from './Hero';
 //import Banner from './banner'
 import ArtistsList from './artistsList';
@@ -50,7 +50,7 @@ setPosts = response => {
        
       <div className="container">
   
-    
+         <Banner></Banner>
 
         <div className="main"><h2>A Demo Site showcasing CSS Grid</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?</p>
